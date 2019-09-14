@@ -1,0 +1,28 @@
+﻿<enum-method-mappings>
+
+  <mapping jni-class="com/pdfview/subsamplincscaleimageview/SubsamplingScaleImageView">
+    <method jni-name="setPanLimit" parameter="panLimit"
+            clr-enum-type="PDFViewAndroid.SubscaleView.PanLimit" />
+    
+    <method jni-name="setMinimumScaleType" parameter="scaleType"
+            clr-enum-type="PDFViewAndroid.SubscaleView.ScaleType" />
+    
+    <method jni-name="setDoubleTapZoomStyle" parameter="doubleTapZoomStyle"
+            clr-enum-type="PDFViewAndroid.SubscaleView.ZoomFocus" />
+  </mapping>
+
+
+  <mapping jni-class="com/pdfview/subsamplincscaleimageview/SubsamplingScaleImageView$AnimationBuilder">
+    <method jni-name="withEasing" parameter="easing"
+            clr-enum-type="PDFViewAndroid.SubscaleView.EasingStyle" />
+  </mapping>
+
+  <mapping jni-interface="com/pdfview/subsamplincscaleimageview/SubsamplingScaleImageView$OnStateChangedListener">
+    <method jni-name="onScaleChanged" parameter="p1"
+            clr-enum-type="PDFViewAndroid.SubscaleView.Origin" />
+    
+    <method jni-name="onCenterChanged" parameter="p1"
+            clr-enum-type="PDFViewAndroid.SubscaleView.Origin" />
+  </mapping>
+
+</enum-method-mappings>

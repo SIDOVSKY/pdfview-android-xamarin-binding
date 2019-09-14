@@ -1,0 +1,39 @@
+﻿<enum-field-mappings>
+ 
+  <mapping jni-class="com/pdfview/subsamplincscaleimageview/SubsamplingScaleImageView"
+           clr-enum-type="PDFViewAndroid.SubscaleView.ZoomFocus">
+    <field jni-name="ZOOM_FOCUS_FIXED" clr-name="Fixed" value="1" />
+    <field jni-name="ZOOM_FOCUS_CENTER" clr-name="Center" value="2" />
+    <field jni-name="ZOOM_FOCUS_CENTER_IMMEDIATE" clr-name="CenterImmediate" value="3" />
+  </mapping>
+
+  <mapping jni-class="com/pdfview/subsamplincscaleimageview/SubsamplingScaleImageView"
+           clr-enum-type="PDFViewAndroid.SubscaleView.EasingStyle">
+    <field jni-name="EASE_OUT_QUAD" clr-name="EaseOutQuad" value="1" />
+    <field jni-name="EASE_IN_OUT_QUAD" clr-name="EaseInOutQuad" value="2" />
+  </mapping>
+
+  <mapping jni-class="com/pdfview/subsamplincscaleimageview/SubsamplingScaleImageView"
+           clr-enum-type="PDFViewAndroid.SubscaleView.PanLimit">
+    <field jni-name="PAN_LIMIT_INSIDE" clr-name="Inside" value="1" />
+    <field jni-name="PAN_LIMIT_OUTSIDE" clr-name="Outside" value="2" />
+    <field jni-name="PAN_LIMIT_CENTER" clr-name="Center" value="3" />
+  </mapping>
+
+  <mapping jni-class="com/pdfview/subsamplincscaleimageview/SubsamplingScaleImageView"
+           clr-enum-type="PDFViewAndroid.SubscaleView.ScaleType">
+    <field jni-name="SCALE_TYPE_CENTER_INSIDE" clr-name="CenterInside" value="1" />
+    <field jni-name="SCALE_TYPE_CENTER_CROP" clr-name="CenterCrop" value="2" />
+    <field jni-name="SCALE_TYPE_CUSTOM" clr-name="Custom" value="3" />
+    <field jni-name="SCALE_TYPE_START" clr-name="Start" value="4" />
+  </mapping>
+
+  <mapping jni-class="com/pdfview/subsamplincscaleimageview/SubsamplingScaleImageView"
+           clr-enum-type="PDFViewAndroid.SubscaleView.Origin">
+    <field jni-name="ORIGIN_ANIM" clr-name="Anim" value="1" />
+    <field jni-name="ORIGIN_TOUCH" clr-name="Touch" value="2" />
+    <field jni-name="ORIGIN_FLING" clr-name="Fling" value="3" />
+    <field jni-name="ORIGIN_DOUBLE_TAP_ZOOM" clr-name="DoubleTapZoom" value="4" />
+  </mapping>
+  
+</enum-field-mappings>

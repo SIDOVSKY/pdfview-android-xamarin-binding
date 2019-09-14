@@ -1,0 +1,64 @@
+﻿<metadata>
+  <!-- Normalize the namespace for .NET -->
+  <attr path="/api/package[@name='com.pdfview']"
+        name="managedName">PDFViewAndroid</attr>
+  
+  <attr path="/api/package[@name='com.pdfview.pdf']"
+        name="managedName">PDFViewAndroid.PDF</attr>
+  
+  <attr path="/api/package[@name='com.pdfview.subsamplincscaleimageview']"
+        name="managedName">PDFViewAndroid.SubscaleView</attr>
+  
+  <attr path="/api/package[@name='com.pdfview.subsamplincscaleimageview.decoder']"
+        name="managedName">PDFViewAndroid.SubscaleView.Decoder</attr>
+
+  <!-- Change parameter names to more meaningful ones. -->
+  <attr path="/api/package[@name='com.pdfview']
+          /class[@name='PDFView']
+          /constructor[@name='PDFView' and count(parameter)=1 and parameter[1][@type='android.content.Context']]
+          /parameter[1]"
+        name="managedName">context</attr> 
+
+  <attr path="/api/package[@name='com.pdfview.subsamplincscaleimageview']
+          /interface[@name='SubsamplingScaleImageView.OnStateChangedListener']
+          /method[@name='onCenterChanged']
+          /parameter[1]"
+        name="managedName">newCenter</attr>
+  
+  <attr path="/api/package[@name='com.pdfview.subsamplincscaleimageview']
+          /interface[@name='SubsamplingScaleImageView.OnStateChangedListener']
+          /method[@name='onCenterChanged']
+          /parameter[2]"
+        name="managedName">origin</attr>
+
+  <attr path="/api/package[@name='com.pdfview.subsamplincscaleimageview']
+          /interface[@name='SubsamplingScaleImageView.OnStateChangedListener']
+          /method[@name='onScaleChanged']
+          /parameter[1]"
+        name="managedName">newScale</attr>
+
+  <attr path="/api/package[@name='com.pdfview.subsamplincscaleimageview']
+          /interface[@name='SubsamplingScaleImageView.OnStateChangedListener']
+          /method[@name='onScaleChanged']
+          /parameter[2]"
+        name="managedName">origin</attr>
+
+  <attr path="/api/package[@name='com.pdfview.subsamplincscaleimageview']
+          /interface[@name='SubsamplingScaleImageView.OnImageEventListener']
+          /method[@name='onImageLoadError']
+          /parameter[1]"
+        name="managedName">exception</attr>
+  
+  <attr path="/api/package[@name='com.pdfview.subsamplincscaleimageview']
+          /interface[@name='SubsamplingScaleImageView.OnImageEventListener']
+          /method[@name='onPreviewLoadError']
+          /parameter[1]"
+        name="managedName">exception</attr>
+  
+  <attr path="/api/package[@name='com.pdfview.subsamplincscaleimageview']
+          /interface[@name='SubsamplingScaleImageView.OnImageEventListener']
+          /method[@name='onTileLoadError']
+          /parameter[1]"
+        name="managedName">exception</attr>
+  
+</metadata>

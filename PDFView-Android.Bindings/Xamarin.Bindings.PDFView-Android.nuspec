@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata>
+    <id>Xamarin.Bindings.PDFView-Android</id>
+    <version>1.0.0</version>
+    <title>Xamarin.Bindings.PDFView-Android</title>
+    <authors>SIDOVSKY</authors>
+    <license type="expression">Apache-2.0</license>
+    <projectUrl>https://github.com/SIDOVSKY/pdfview-android-xamarin-binding</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Binding library for https://github.com/Dmitry-Borodin/pdfview-android</description>
+    <copyright>Vadim Sedov, Dmitry Borodin, David Morrissey</copyright>
+    <tags>xamarin android monodroid xamarin.android</tags>
+    <dependencies>
+      <group targetFramework="MonoAndroid">
+        <dependency id="Xamarin.Kotlin.StdLib" version="1.3.31" />
+        <dependency id="Xamarin.Android.Support.Annotations" version="28.0.0" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\Xamarin.Bindings.PDFView-Android.dll" target="lib\MonoAndroid\Xamarin.Bindings.PDFView-Android.dll" />
+  </files>
+</package>
