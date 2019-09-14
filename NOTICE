@@ -1,0 +1,13 @@
+PDFView-Android Xamarin Binding
+Copyright 2019 Vadim Sedov
+Licensed under the Apache License, Version 2.0.
+
+This project uses:
+
+Library "pdfview" (https://github.com/Dmitry-Borodin/pdfview-android)
+Copyright 2018-2019 Dmitry Borodin
+Licensed under the Apache License, Version 2.0.
+
+Library "Subsampling Scale Image View" (https://github.com/davemorrissey/subsampling-scale-image-view)
+Copyright 2018 David Morrissey
+Licensed under the Apache License, Version 2.0.
