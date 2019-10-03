@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
-  <metadata>
+  <metadata minClientVersion="2.5">
     <id>Xamarin.Bindings.PDFView-Android</id>
     <version>1.0.0</version>
     <title>Xamarin.Bindings.PDFView-Android</title>
@@ -13,12 +13,12 @@
     <tags>xamarin android monodroid xamarin.android</tags>
     <dependencies>
       <group targetFramework="MonoAndroid">
-        <dependency id="Xamarin.Kotlin.StdLib" version="1.3.31" />
         <dependency id="Xamarin.Android.Support.Annotations" version="28.0.0" />
       </group>
     </dependencies>
   </metadata>
   <files>
+    <file src="build\**" target="build" />
     <file src="bin\Release\Xamarin.Bindings.PDFView-Android.dll" target="lib\MonoAndroid\Xamarin.Bindings.PDFView-Android.dll" />
   </files>
 </package>

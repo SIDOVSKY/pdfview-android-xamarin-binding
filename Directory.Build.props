@@ -1,0 +1,4 @@
+<Project>
+  <Import Project="PDFView-Android.Bindings/build/Xamarin.Bindings.PDFView-Android.targets" 
+          Condition=" '$(TargetFrameworkIdentifier)' == 'MonoAndroid' "/>
+</Project>

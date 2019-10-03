@@ -1,0 +1,12 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="PDFView_ExcludeKotlinLib" 
+          AfterTargets="_ResolveAssemblies"
+          BeforeTargets="_DetermineJavaLibrariesToCompile">
+    <PropertyGroup>
+      <ExtractedJarImportsProp>@(ExtractedJarImports)</ExtractedJarImportsProp>
+    </PropertyGroup>
+    <ItemGroup Condition="$(ExtractedJarImportsProp.Contains('kotlin-stdlib'))">
+      <_ResolvedDoNotPackageAttributes Include="pdfview_kotlin_stdlib.jar" />
+    </ItemGroup>
+  </Target>
+</Project>

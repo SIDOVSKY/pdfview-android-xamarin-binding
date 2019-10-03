@@ -9,6 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFView-Android.Sample", "P
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B0AC9E01-AFF8-4BBA-91B8-62F6BC7EBAAF}"
 	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
 		LICENSE = LICENSE
 		NOTICE = NOTICE
 		README.md = README.md
