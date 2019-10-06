@@ -46,6 +46,18 @@ PDFView is inherited from a slightly modified [SubsamplingScaleImageView](https:
 
 For details please visit Subsampling Scale Image View [wiki page](https://github.com/davemorrissey/subsampling-scale-image-view/wiki).
 
+## Apk size impact
+
+* Projects which already use Kotlin-Stdlib: ~120 Kb
+* Projects without Kotlin-StdLib: ~550 Kb
+
+This library doesn't reference [Xamarin.Kotlin.StdLib](https://www.nuget.org/packages/Xamarin.Kotlin.StdLib) because it doesn't need kotlin-stdlib **binding itself**, it uses only java classes from it.
+Including C# binding classes shipped with Xamarin.Kotlin.StdLib would require ~1.5 Mb of apk size without a reason.
+
+That's why this library also embeds kotlin-stdlib jar. 
+
+Resolution of a java class duplication conflict is provided by a special build target. If your project already uses kotlin-stdlib jar then our version will be excluded from compilation.
+
 ## Try this library in action!
 
 Build and deploy [PDFView-Android.Sample](PDFView-Android.Sample) project to your android device/emulator.
