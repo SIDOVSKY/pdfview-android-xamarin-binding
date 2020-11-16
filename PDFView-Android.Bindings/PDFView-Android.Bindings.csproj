@@ -46,7 +46,8 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\pdfview-android-1.0.0.aar" />
+    <LibraryProjectZip Include="Jars\pdfview-android-1.0.0-1438138.aar" />
+    <EmbeddedResource Include="Jars\kotlin-stdlib-1.4.10.jar" LogicalName="pdfview_kotlin_stdlib.jar" />
     <None Include="build\Xamarin.Bindings.PDFView-Android.targets" />
     <None Include="Xamarin.Bindings.PDFView-Android.nuspec" />
   </ItemGroup>
@@ -57,11 +58,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Jars\kotlin-stdlib-1.3.30.jar">
-      <LogicalName>pdfview_kotlin_stdlib.jar</LogicalName>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
