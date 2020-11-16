@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
   <metadata minClientVersion="2.5">
     <id>Xamarin.Bindings.PDFView-Android</id>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <title>Xamarin.Bindings.PDFView-Android</title>
     <authors>SIDOVSKY</authors>
     <license type="expression">Apache-2.0</license>
@@ -11,6 +11,10 @@
     <description>Binding library for https://github.com/Dmitry-Borodin/pdfview-android</description>
     <copyright>Vadim Sedov, Dmitry Borodin, David Morrissey</copyright>
     <tags>xamarin android monodroid xamarin.android</tags>
+    <releaseNotes>
+      * pdfview-android java library updated to commit 1438138
+      * removed android.support dependency, can be used with androidx without migration
+    </releaseNotes>
     <dependencies>
       <group targetFramework="MonoAndroid">
       </group>
