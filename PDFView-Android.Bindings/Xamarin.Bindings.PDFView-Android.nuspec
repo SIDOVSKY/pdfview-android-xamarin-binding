@@ -13,7 +13,6 @@
     <tags>xamarin android monodroid xamarin.android</tags>
     <dependencies>
       <group targetFramework="MonoAndroid">
-        <dependency id="Xamarin.Android.Support.Annotations" version="28.0.0" />
       </group>
     </dependencies>
   </metadata>

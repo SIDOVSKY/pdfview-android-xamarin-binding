@@ -1,14 +1,13 @@
 ﻿using Android.App;
 using Android.OS;
-using Android.Support.V7.App;
 
 namespace PDFViewAndroid.Sample
 {
     [Activity(
         Label = "@string/app_name",
-        Theme = "@style/AppTheme.NoActionBar",
+        Theme = "@style/AppTheme",
         MainLauncher = true)]
-    public class MainActivity : AppCompatActivity
+    public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
